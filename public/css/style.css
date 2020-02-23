@@ -567,8 +567,8 @@ body {
   padding: 0 4.6rem 2.8rem 3.4rem; }
   .people-export .input-container {
     padding: 2.3rem 2.6rem;
+    padding-bottom: 3.2rem;
     max-width: 36rem;
-    height: 15rem;
     border-radius: 4px;
     border: solid 1.5px #eaebee;
     background-color: #ffffff;
@@ -689,9 +689,11 @@ body {
     .people-invite-body .invite {
       position: relative;
       max-width: 82rem;
-      max-height: 50rem;
+      min-height: 50rem;
+      max-height: 60rem;
       height: 100%;
       padding: 2.6rem;
+      padding-bottom: 6.2rem;
       border: solid 1.5px #eaebee;
       border-radius: 3px; }
       .people-invite-body .invite h3 {
@@ -1683,8 +1685,8 @@ body {
   padding: 0 4.6rem 2.8rem 3.4rem; }
   .teams-export .input-container {
     padding: 2.3rem 2.6rem;
+    padding-bottom: 3.2rem;
     max-width: 36rem;
-    height: 15rem;
     border-radius: 4px;
     border: solid 1.5px #eaebee;
     background-color: #ffffff;
@@ -1708,56 +1710,42 @@ body {
     font-family: "Lato", sans-serif; }
     .teams-export-body .input {
       position: relative;
-      max-width: 28rem;
-      z-index: 1000; }
-      .teams-export-body .input .i-1 {
-        position: absolute;
-        top: 74%;
-        left: 0;
-        transform: translate(50%, -50%); }
-      .teams-export-body .input .i-2 {
-        color: #62e872;
-        position: absolute;
-        top: 74%;
-        right: 0;
-        transform: translate(-50%, -50%); }
+      width: 28rem; }
       .teams-export-body .input .suggestion-container {
         width: 100%;
         position: absolute;
         bottom: 0;
         display: none;
-        height: 26rem;
+        height: 30rem;
         transform: translate(0, 100%);
         width: 100%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        border-top: none;
-        z-index: 100; }
+        border-top: none; }
       .teams-export-body .input label {
         display: block;
         margin-bottom: 0.9rem;
         font-size: 1.9rem;
         font-weight: 700;
-        color: #1a173b; }
+        color: #000000; }
       .teams-export-body .input input {
         width: 100%;
         height: 4.45rem;
         padding: 1.3rem 1.5rem;
-        padding-left: 5rem;
         margin-bottom: 3.3rem;
         font-size: 1.5rem;
         border-radius: 2px;
-        border: solid 2px #e4e4e4;
-        background-color: #ffffff;
-        color: #000; }
+        border: solid 1.5px #eaebee;
+        background-color: #ffffff; }
+        @media (max-width: 991px) {
+          .teams-export-body .input input {
+            width: 100%; } }
         .teams-export-body .input input:focus {
           outline: none;
           border: solid 2px #0077ff; }
         .teams-export-body .input input:focus ~ .suggestion-container .search-suggestion {
-          display: block;
-          z-index: 50; }
+          display: block; }
         .teams-export-body .input input:focus ~ .suggestion-container {
-          display: block;
-          z-index: 50; }
+          display: block; }
         .teams-export-body .input input::placeholder {
           font-size: 1.5rem;
           color: #000; }
@@ -1770,6 +1758,7 @@ body {
         width: 100%;
         background-color: #ffffff;
         transform: translate(0, 0);
+        z-index: 500;
         overflow: auto; }
         @media (max-width: 767px) {
           .teams-export-body .input .search-suggestion {
@@ -1792,6 +1781,20 @@ body {
           .teams-export-body .input .search-suggestion-item .people {
             font-size: 1.2rem;
             color: #5e636b; }
+        .teams-export-body .input .search-suggestion-footer {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 3.9rem;
+          border: solid 1px #f2f2f2;
+          padding-left: 1.6rem;
+          font-size: 1.4rem;
+          color: #000a19;
+          background-color: #fff; }
+          .teams-export-body .input .search-suggestion-footer i {
+            margin-right: 0.8rem; }
+          .teams-export-body .input .search-suggestion-footer a {
+            margin-left: 0.5rem; }
 
 .teams-results-example {
   margin-left: 24.4rem;
@@ -2450,7 +2453,7 @@ body {
           background-color: #0077ff; }
       .teams-results-favourites-body .graph-card-header {
         padding: 2.6rem;
-        padding-bottom: 1rem; }
+        padding-bottom: 1.6rem; }
         .teams-results-favourites-body .graph-card-header h3 {
           font-size: 1.9rem;
           font-weight: 700;
@@ -2532,9 +2535,10 @@ body {
         right: 0;
         transform: translate(-50%, -50%);
         color: #62e872; }
+    .teams-settings-body .team-name {
+      margin-right: 3%; }
     .teams-settings-body .team-name, .teams-settings-body .category {
       padding: 2.6rem;
-      margin-right: 3%;
       font-family: "Lato", sans-serif;
       margin-bottom: 2.3rem;
       height: 7.8rem;
@@ -2551,7 +2555,7 @@ body {
         letter-spacing: 0.35px;
         color: #0077ff;
         border-radius: 4px;
-        border: solid 1.5px #0077ff;
+        border: solid 2px #0077ff;
         text-decoration: none; }
         .teams-settings-body .team-name a.btn-custom-outline:hover, .teams-settings-body .category a.btn-custom-outline:hover {
           background-color: #0077ff;
@@ -2562,7 +2566,7 @@ body {
           .teams-settings-body .team-name a.btn-custom-outline.active:hover, .teams-settings-body .category a.btn-custom-outline.active:hover {
             background-color: #fff;
             color: #0077ff;
-            border: solid 1.5px #0077ff; }
+            border: solid 2px #0077ff; }
       .teams-settings-body .team-name label, .teams-settings-body .category label {
         margin-right: 2.9rem;
         font-size: 1.9rem;
@@ -2710,8 +2714,7 @@ body {
           border-top: none !important; }
     .teams-settings-body .team-card {
       border-radius: 4px;
-      border: solid 1.5px #eaebee;
-      margin-right: 3%; }
+      border: solid 1.5px #eaebee; }
       .teams-settings-body .team-card-lead {
         margin-bottom: 3%; }
       .teams-settings-body .team-card-admin p {
@@ -2728,6 +2731,8 @@ body {
           color: #1a173b; }
         .teams-settings-body .team-card-header a {
           font-size: 1.4rem; }
+      .teams-settings-body .team-card-member {
+        margin-right: 3% !important; }
     .teams-settings-body .card-confirm {
       width: 100%;
       padding: 2.5rem 2rem;
@@ -2769,9 +2774,10 @@ body {
         right: 0;
         transform: translate(-50%, -50%);
         color: #62e872; }
+    .teams-create-new-body .category-left, .teams-create-new-body .team-card-member {
+      margin-right: 3%; }
     .teams-create-new-body .team-name, .teams-create-new-body .category {
       padding: 2.6rem;
-      margin-right: 3%;
       font-family: "Lato", sans-serif;
       margin-bottom: 2.3rem;
       height: 7.8rem;
@@ -2944,8 +2950,7 @@ body {
           border-top: none !important; }
     .teams-create-new-body .team-card {
       border-radius: 4px;
-      border: solid 1.5px #eaebee;
-      margin-right: 3%; }
+      border: solid 1.5px #eaebee; }
       .teams-create-new-body .team-card-lead {
         margin-bottom: 3%; }
       .teams-create-new-body .team-card-admin p {
@@ -3454,7 +3459,6 @@ body {
         font-weight: 600;
         color: #6E747E; }
         .header-top-logout a i {
-          margin-left: -0.2rem;
           margin-top: -0.3rem;
           font-size: 1.9rem; }
   .header h2 {
@@ -3523,3 +3527,6 @@ body {
         top: 50%;
         left: 4rem;
         transform: translate(-50%, -50%); }
+
+.options {
+  white-space: nowrap; }
