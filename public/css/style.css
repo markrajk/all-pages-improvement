@@ -690,10 +690,10 @@ body {
       position: relative;
       max-width: 82rem;
       min-height: 50rem;
-      max-height: 60rem;
+      max-height: 50rem;
       height: 100%;
       padding: 2.6rem;
-      padding-bottom: 6.2rem;
+      padding-bottom: 3.9rem;
       border: solid 1.5px #eaebee;
       border-radius: 3px; }
       .people-invite-body .invite h3 {
@@ -718,7 +718,7 @@ body {
         .people-invite-body .invite .input label {
           display: block;
           margin-bottom: 0.9rem;
-          font-size: 1rem;
+          font-size: 1.1rem;
           font-weight: 700;
           color: #000000; }
         .people-invite-body .invite .input input {
@@ -726,7 +726,7 @@ body {
           height: 4.45rem;
           padding: 1.3rem 1.5rem;
           margin-bottom: 3.3rem;
-          font-size: 1.4rem;
+          font-size: 1.5rem;
           border: solid 1.3px #c3cad9;
           background-color: #ffffff; }
           @media (max-width: 991px) {
@@ -740,8 +740,8 @@ body {
           .people-invite-body .invite .input input:focus ~ .suggestion-container {
             display: block; }
           .people-invite-body .invite .input input::placeholder {
-            font-size: 1.4rem;
-            color: #959ead; }
+            font-size: 1.5rem;
+            color: #000A19; }
         .people-invite-body .invite .input .search-suggestion {
           display: none;
           height: 26rem;
