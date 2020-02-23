@@ -54,6 +54,11 @@ $red-gradient: linear-gradient(#fa2020, #ef0049);
       @content;
     }
   }
+  @if $breakpoint == desktop-mds {
+    @media (max-height: 700px) {
+      @content;
+    }
+  }
   @if $breakpoint == desktop-md {
     @media (max-height: 991px) {
       @content;
@@ -4823,7 +4828,7 @@ body {
   height: 100vh;
   padding: 43px 48px;
 
-  .header {
+  &-header {
     font-size: 2rem;
     font-weight: 600;
     color: #3d3f43;
@@ -4859,16 +4864,23 @@ body {
     border: solid 2px #d9d9d9;
     border-radius: 1.2rem;
 
-    @include respond-h(height-sm) {
+    @include respond-v(desktop-sm) {
+      height: 54rem;
     }
 
     &-header {
-      height: 45px;
+      height: 4.5rem;
       margin-top: 9rem;
       margin-bottom: 5.5rem;
       font-size: 3.6rem;
       font-weight: 600;
       color: #183b56;
+
+      @include respond-v(desktop-sm) {
+        height: 2.25rem;
+        margin-top: 4.5rem;
+        margin-bottom: 2.75rem;
+      }
     }
 
     & #password,
