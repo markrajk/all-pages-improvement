@@ -1141,15 +1141,15 @@ body {
             .people-results-key-people-body-right-top .graph-card-header .options {
               margin-right: auto;
               font-size: 1.6rem;
-              font-weight: 400; }
+              font-weight: normal; }
               .people-results-key-people-body-right-top .graph-card-header .options a {
                 color: #878590; }
                 .people-results-key-people-body-right-top .graph-card-header .options a.active {
-                  font-weight: 400;
+                  font-weight: bold;
                   color: #1a173b; }
               .people-results-key-people-body-right-top .graph-card-header .options .divider {
                 margin: 0 0.5rem;
-                font-weight: 400; }
+                font-weight: bold; }
           .people-results-key-people-body-right-top .graph-card-body {
             display: flex;
             justify-content: space-between;
@@ -1219,15 +1219,15 @@ body {
           .people-results-key-people-body-right-bottom-header .options {
             margin-right: auto;
             font-size: 1.9rem;
-            font-weight: 700; }
+            font-weight: normal; }
             .people-results-key-people-body-right-bottom-header .options a {
               color: #878590; }
               .people-results-key-people-body-right-bottom-header .options a.active {
-                font-weight: 700;
+                font-weight: bold;
                 color: #1a173b; }
             .people-results-key-people-body-right-bottom-header .options .divider {
               margin: 0 0.5rem;
-              font-weight: 700; }
+              font-weight: bold; }
           .people-results-key-people-body-right-bottom-header .share {
             white-space: nowrap;
             font-size: 1.4rem; }
@@ -1331,15 +1331,15 @@ body {
             .people-results-one-user-body-left-top .graph-card-header .options, .people-results-one-user-body-right-top .graph-card-header .options {
               margin-right: auto;
               font-size: 1.6rem;
-              font-weight: 400; }
+              font-weight: normal; }
               .people-results-one-user-body-left-top .graph-card-header .options a, .people-results-one-user-body-right-top .graph-card-header .options a {
                 color: #878590; }
                 .people-results-one-user-body-left-top .graph-card-header .options a.active, .people-results-one-user-body-right-top .graph-card-header .options a.active {
-                  font-weight: 400;
+                  font-weight: bold;
                   color: #1a173b; }
               .people-results-one-user-body-left-top .graph-card-header .options .divider, .people-results-one-user-body-right-top .graph-card-header .options .divider {
                 margin: 0 0.5rem;
-                font-weight: 400; }
+                font-weight: bold; }
           .people-results-one-user-body-left-top .graph-card-body, .people-results-one-user-body-right-top .graph-card-body {
             display: flex;
             justify-content: space-between;
@@ -1812,15 +1812,15 @@ body {
             .teams-results-example-body-left-top .graph-card-header .options, .teams-results-example-body-left-bottom .graph-card-header .options {
               margin-right: auto;
               font-size: 1.6rem;
-              font-weight: 400; }
+              font-weight: normal; }
               .teams-results-example-body-left-top .graph-card-header .options a, .teams-results-example-body-left-bottom .graph-card-header .options a {
                 color: #878590; }
                 .teams-results-example-body-left-top .graph-card-header .options a.active, .teams-results-example-body-left-bottom .graph-card-header .options a.active {
-                  font-weight: 400;
+                  font-weight: bold;
                   color: #1a173b; }
               .teams-results-example-body-left-top .graph-card-header .options .divider, .teams-results-example-body-left-bottom .graph-card-header .options .divider {
                 margin: 0 0.5rem;
-                font-weight: 400; }
+                font-weight: bold; }
           .teams-results-example-body-left-top .graph-card-body, .teams-results-example-body-left-bottom .graph-card-body {
             display: flex;
             justify-content: space-between;
@@ -1922,15 +1922,15 @@ body {
             .teams-results-example-team-lead-body-left-top .graph-card-header .options, .teams-results-example-team-lead-body-right-top .graph-card-header .options {
               margin-right: auto;
               font-size: 1.6rem;
-              font-weight: 400; }
+              font-weight: normal; }
               .teams-results-example-team-lead-body-left-top .graph-card-header .options a, .teams-results-example-team-lead-body-right-top .graph-card-header .options a {
                 color: #878590; }
                 .teams-results-example-team-lead-body-left-top .graph-card-header .options a.active, .teams-results-example-team-lead-body-right-top .graph-card-header .options a.active {
-                  font-weight: 400;
+                  font-weight: bold;
                   color: #1a173b; }
               .teams-results-example-team-lead-body-left-top .graph-card-header .options .divider, .teams-results-example-team-lead-body-right-top .graph-card-header .options .divider {
                 margin: 0 0.5rem;
-                font-weight: 400; }
+                font-weight: bold; }
           .teams-results-example-team-lead-body-left-top .graph-card-body, .teams-results-example-team-lead-body-right-top .graph-card-body {
             display: flex;
             justify-content: space-between;
@@ -2203,15 +2203,15 @@ body {
             .teams-results-example-people-body-right-top .graph-card-header .options {
               margin-right: auto;
               font-size: 1.6rem;
-              font-weight: 400; }
+              font-weight: normal; }
               .teams-results-example-people-body-right-top .graph-card-header .options a {
                 color: #878590; }
                 .teams-results-example-people-body-right-top .graph-card-header .options a.active {
-                  font-weight: 400;
+                  font-weight: bold;
                   color: #1a173b; }
               .teams-results-example-people-body-right-top .graph-card-header .options .divider {
                 margin: 0 0.5rem;
-                font-weight: 400; }
+                font-weight: bold; }
           .teams-results-example-people-body-right-top .graph-card-body {
             display: flex;
             justify-content: space-between;
@@ -2281,15 +2281,15 @@ body {
           .teams-results-example-people-body-right-bottom-header .options {
             margin-right: auto;
             font-size: 1.9rem;
-            font-weight: 700; }
+            font-weight: normal; }
             .teams-results-example-people-body-right-bottom-header .options a {
               color: #878590; }
               .teams-results-example-people-body-right-bottom-header .options a.active {
-                font-weight: 700;
+                font-weight: bold;
                 color: #1a173b; }
             .teams-results-example-people-body-right-bottom-header .options .divider {
               margin: 0 0.5rem;
-              font-weight: 700; }
+              font-weight: bold; }
           .teams-results-example-people-body-right-bottom-header .share {
             white-space: nowrap;
             font-size: 1.4rem; }
@@ -2370,15 +2370,15 @@ body {
           margin-left: .2rem;
           margin-right: auto;
           font-size: 1.45rem;
-          font-weight: 400; }
+          font-weight: normal; }
           .teams-results-favourites-body .graph-card-header .options a {
             color: #878590; }
             .teams-results-favourites-body .graph-card-header .options a.active {
-              font-weight: 400;
+              font-weight: bold;
               color: #1a173b; }
           .teams-results-favourites-body .graph-card-header .options .divider {
             margin: 0 0.5rem;
-            font-weight: 400; }
+            font-weight: bold; }
       .teams-results-favourites-body .graph-card-body {
         display: flex;
         justify-content: space-between;
@@ -2800,15 +2800,15 @@ body {
             .me-results-body-left-top .graph-card-header .options, .me-results-body-right-top .graph-card-header .options {
               margin-right: auto;
               font-size: 1.6rem;
-              font-weight: 400; }
+              font-weight: normal; }
               .me-results-body-left-top .graph-card-header .options a, .me-results-body-right-top .graph-card-header .options a {
                 color: #878590; }
                 .me-results-body-left-top .graph-card-header .options a.active, .me-results-body-right-top .graph-card-header .options a.active {
-                  font-weight: 400;
+                  font-weight: bold;
                   color: #1a173b; }
               .me-results-body-left-top .graph-card-header .options .divider, .me-results-body-right-top .graph-card-header .options .divider {
                 margin: 0 0.5rem;
-                font-weight: 400; }
+                font-weight: bold; }
           .me-results-body-left-top .graph-card-body, .me-results-body-right-top .graph-card-body {
             display: flex;
             justify-content: space-between;
@@ -3220,15 +3220,15 @@ body {
     .header-bot .options {
       margin-right: auto;
       font-size: 1.6rem;
-      font-weight: 600; }
+      font-weight: normal; }
       .header-bot .options a {
         color: #878590; }
         .header-bot .options a.active {
-          font-weight: 600;
+          font-weight: bold;
           color: #1a173b; }
       .header-bot .options .divider {
         margin: 0 0.5rem;
-        font-weight: 600; }
+        font-weight: bold; }
     .header-bot .profile-info {
       margin-right: auto;
       font-size: 1.6rem;
