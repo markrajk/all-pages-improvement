@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard | My key people</title>
+    <title>Dashboard | Team profile | People</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
         <div class="sidebar-group">
             <h3>TEAMS</h3>
             <ul class="list-unstyled">
-                <li><a href="../teams-results-favourites/index.html">Results </a></li>
+                <li class="active"><a href="../teams-results-favourites/index.html">Results </a></li>
                 <li><a href="../teams-export/index.html">Export results </a></li>
                 <li><a href="../teams-setting/index.html">Manage teams </a></li>
                 <li><a href="../teams-create-new/index.html">Create a new team </a></li>
@@ -50,7 +50,7 @@
         <div class="sidebar-group">
             <h3>PEOPLE</h3>
             <ul class="list-unstyled">
-                <li class="active"><a href="../people-results-key-people/index.html">Results </a></li>
+                <li><a href="../teams-results-example-people/index.html">Results </a></li>
                 <li><a href="../people-export/index.html">Export results </a></li>
                 <li><a href="../people-settings/index.html">Manage people</a></li>
                 <li><a href="../people-invite/index.html">Invite new people </a></li>
@@ -76,30 +76,46 @@
 </div>
 
     <!-- RESULTS SECTION -->
-    <div class="people-results-key-people">
+    <div class="teams-results-example-people">
 
         <div class="header">
             <div class="header-top">
-                <a class="header-top-small" href="#">People</a>
+                <a class="header-top-small" href="../teams-results-favourites/index.html">
+                    <i class="material-icons">keyboard_arrow_left</i>
+                    Back to overview</a>
                 <div class="header-top-logout">
                     <a href="../people-signin/index.html">Logout
                         <i class="material-icons align-middle">exit_to_app</i>
                     </a>
                 </div>
             </div>
-            <h2>Results</h2>
+            <h2>Team Marketing</h2>
             <div class="header-bot">
                 <div class="options">
-                    <a href="../people-results-key-people/index.html" class="active">My key people</a>
+                    <a href="../teams-results-example/index.html">Team</a>
                     <span class="divider">I</span>
-                    <a href="../people-results-all-people/index.html">All people</a>
+                    <a href="../teams-results-example-team-lead/index.html">Team lead</a>
+                    <span class="divider">I</span>
+                    <a href="../teams-results-example-people/index.html" class="active">People</a>
                 </div>
-                <a href="#" class="btn-custom-blue">Remove from my key people</a>
+
+                <div>
+                    <div class="buttons d-none d-lg-block">
+                        <a href="../teams-export/index.html" class="btn-custom-blue">Export</a>
+                        <a href="../teams-setting/index.html" class="btn-custom-blue">Edit teams</a>
+                        <a href="#" class="btn-custom-blue">Add to my favourites</a>
+                    </div>
+                    <div class="icons d-sm-block d-lg-none">
+                        <a href="#"><i class="material-icons archive">save_alt</i></a>
+                        <a href="#"><i class="material-icons settings">settings</i></a>
+                        <a href="#"><i class="material-icons add">person_add</i></a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="people-results-key-people-body">
-            <div class="people-results-key-people-body-left">
+        <div class="teams-results-example-people-body">
+            <div class="teams-results-example-people-body-left">
                 <div class="people">
                     <div class="card-header bg-white d-flex justify-content-between">
                         <h3 class="m-0">People <span>33</span></h3>
@@ -199,8 +215,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="people-results-key-people-body-right">
-                <div class="people-results-key-people-body-right-top">
+            <div class="teams-results-example-people-body-right">
+                <div class="teams-results-example-people-body-right-top">
                     <div class="graph-card bg-white graph-team-marketing">
                         <div class="graph-card-header d-flex justify-content-between">
                            <div>
@@ -266,11 +282,11 @@
                     </div>
                 </div>
 
-                <div class="people-results-key-people-body-right-bottom">
+                <div class="teams-results-example-people-body-right-bottom">
                         <div class="right-container">
-                            <div class="people-results-key-people-body-right-bottom-header">
+                            <div class="teams-results-example-people-body-right-bottom-header">
                                 <div class="options">
-                                    <a href="../people-results-key-people/index.html" class="active">Improvement Ideas</a>
+                                    <a href="../teams-results-example-people/index.html" class="active">Improvement Ideas</a>
                                     <span class="divider">I</span>
                                     <a href="../people-results-all-people/index.html">Compliments</a>
                                 </div>
@@ -282,7 +298,7 @@
 
                                 <!-- <a class="share" href="#">April<i class="material-icons align-middle ml-1">keyboard_arrow_down</i></a> -->
                             </div>
-                            <div class="people-results-key-people-body-right-bottom-body">
+                            <div class="teams-results-example-people-body-right-bottom-body">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <p class="m-0 p-0">

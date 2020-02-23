@@ -47,8 +47,8 @@
                     <ul class="list-unstyled">
                         <li><a href="../teams-results-favourites/index.html">Results </a></li>
                         <li><a href="../teams-export/index.html">Export results </a></li>
-                        <li class="active"><a href="../teams-setting/index.html">Manage teams </a></li>
-                        <li><a href="../teams-create-new/index.html">Create a new team </a></li>
+                        <li><a href="../teams-setting/index.html">Manage teams </a></li>
+                        <li class="active"><a href="../teams-create-new/index.html">Create a new team </a></li>
                     </ul>
                 </div>
 
@@ -81,7 +81,7 @@
         </div>
 
         <!-- RESULTS SECTION -->
-        <div class="teams-settings">
+        <div class="teams-create-new">
 
             <div class="header">
                 <div class="header-top">
@@ -95,29 +95,23 @@
                 <h2>Manage teams</h2>
                 <div class="header-bot">
                     <div class="options">
-                        <a href="../teams-create-new/index.html">Create new team</a>
+                        <a href="../teams-create-new/index.html" class="active">Create new team</a>
                         <span class="divider">I</span>
-                        <a href="../teams-setting/index.html" class="active">Manage teams</a>
+                        <a href="../teams-setting/index.html">Manage teams</a>
                     </div>
                 </div>
             </div>
             
-            <div class="teams-settings-body">
+            <div class="teams-create-new-body">
 
                 <div class="row no-gutters">
                     <div class="col-6">
-                        <div class="team-name d-flex align-items-center justify-content-start text-truncate">
-                            <label class="mb-0" for="team-name ">Select team</label>
-                        <div class="d-none d-xl-block">
-                            <a href="#" class="btn-custom-outline active">Software</a>
-                            <a href="#" class="btn-custom-outline">Sales</a>
-                            <a href="#" class="btn-custom-outline">Management</a>
-                        </div>
-                        <select class="d-block d-xl-none team-select" name="teams" id="teams">
-                            <option value="software" selected>Software</option>
-                            <option value="software">Sales</option>
-                            <option value="software">Management</option>
-                        </select>
+                        <div class="category d-flex align-items-center justify-content-start">
+                            <label class="mb-0  text-truncate" for="category">Name of team</label>
+                            <div class="category-input">
+                                <input type="text" placeholder="Software">
+                                <i class="material-icons">done</i>
+                            </div>
                         </div>
                         <!-- MEMBER CARD -->
                         <div class="team-card bg-white team-card-member">
