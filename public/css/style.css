@@ -276,13 +276,14 @@ body {
           white-space: nowrap;
           color: #000a19; }
         .give-feedback-menu-body .table-top .list-group-item .btn-custom, .give-feedback-menu-body .table-bottom .list-group-item .btn-custom {
+          font-family: "Open Sans", sans-serif;
           font-size: 1.2rem;
           text-decoration: none;
           display: inline-block;
           width: 8rem;
           padding: 0.65rem 0;
           color: #fff;
-          font-weight: 700;
+          font-weight: 600;
           border-radius: 3px; }
           .give-feedback-menu-body .table-top .list-group-item .btn-custom-green, .give-feedback-menu-body .table-bottom .list-group-item .btn-custom-green {
             background: linear-gradient(#3cf166, #17de24); }
@@ -296,7 +297,7 @@ body {
             height: 3rem;
             font-size: 1.7rem;
             color: #0077ff;
-            border: solid 1.5px #0077ff;
+            border: solid 2px #0077ff;
             background-color: none; }
     .give-feedback-menu-body .table-bottom {
       min-height: 20rem;
@@ -1461,8 +1462,97 @@ body {
   margin-left: 24.4rem;
   background-color: #f8f9fb;
   padding: 0 4.6rem 2.8rem 3.4rem; }
+  .people-settings .input-container {
+    padding: 1.5rem;
+    width: 32rem;
+    border-radius: 4px;
+    border: solid 1.5px #eaebee;
+    background-color: #ffffff;
+    margin-top: 3rem; }
+    .people-settings .input-container .input {
+      position: relative;
+      max-width: 28rem;
+      z-index: 1000; }
+      .people-settings .input-container .input .i-1 {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 51%;
+        left: 0;
+        transform: translate(50%, -50%); }
+      .people-settings .input-container .input .i-2 {
+        font-size: 2.5rem;
+        color: #62e872;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%); }
+      .people-settings .input-container .input .suggestion-container {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: none;
+        height: 26rem;
+        transform: translate(0, 100%);
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-top: none;
+        z-index: 100; }
+      .people-settings .input-container .input input {
+        width: 100%;
+        height: 3.9rem;
+        padding: 1.3rem 1.5rem;
+        padding-left: 5rem;
+        margin-bottom: 3.3rem;
+        font-size: 1.5rem;
+        border-radius: 2px;
+        border: solid 2px #e4e4e4;
+        background-color: #ffffff;
+        color: #000; }
+        .people-settings .input-container .input input:focus {
+          outline: none;
+          border: solid 2px #0077ff; }
+        .people-settings .input-container .input input:focus ~ .suggestion-container .search-suggestion {
+          display: block;
+          z-index: 50; }
+        .people-settings .input-container .input input:focus ~ .suggestion-container {
+          display: block;
+          z-index: 50; }
+        .people-settings .input-container .input input::placeholder {
+          font-size: 1.5rem;
+          color: #000; }
+      .people-settings .input-container .input .search-suggestion {
+        display: none;
+        height: 26rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #ffffff;
+        transform: translate(0, 0);
+        overflow: auto; }
+        @media (max-width: 767px) {
+          .people-settings .input-container .input .search-suggestion {
+            width: 100%; } }
+        .people-settings .input-container .input .search-suggestion-item {
+          height: 5.2rem;
+          padding: 2rem 1.6rem 2.5rem 1.6rem; }
+          .people-settings .input-container .input .search-suggestion-item:hover {
+            color: #fff;
+            background-color: #0077ff; }
+            .people-settings .input-container .input .search-suggestion-item:hover p {
+              color: #fff; }
+          .people-settings .input-container .input .search-suggestion-item p {
+            margin: 0; }
+          .people-settings .input-container .input .search-suggestion-item .team {
+            padding-top: 5px;
+            margin-bottom: -2px;
+            font-size: 1.4rem;
+            color: #000a19; }
+          .people-settings .input-container .input .search-suggestion-item .people {
+            font-size: 1.2rem;
+            color: #5e636b; }
   .people-settings-body {
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-family: "Lato", sans-serif;
     height: calc(98% - 15.9rem);
     overflow-y: auto;
@@ -2506,6 +2596,85 @@ body {
         .teams-settings-body .team-name input::placeholder, .teams-settings-body .category input::placeholder {
           color: rgba(0, 0, 0, 0.7);
           font-size: 1.5rem; }
+      .teams-settings-body .team-name .input-container, .teams-settings-body .category .input-container {
+        padding: 0;
+        width: 24rem; }
+        .teams-settings-body .team-name .input-container .input, .teams-settings-body .category .input-container .input {
+          position: relative;
+          max-width: 28rem;
+          z-index: 1000; }
+          .teams-settings-body .team-name .input-container .input .i-2, .teams-settings-body .category .input-container .input .i-2 {
+            font-size: 2.5rem;
+            color: #62e872;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translate(-50%, -50%); }
+          .teams-settings-body .team-name .input-container .input .suggestion-container, .teams-settings-body .category .input-container .input .suggestion-container {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            display: none;
+            height: 26rem;
+            transform: translate(0, 100%);
+            width: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-top: none;
+            z-index: 100; }
+          .teams-settings-body .team-name .input-container .input input, .teams-settings-body .category .input-container .input input {
+            width: 100%;
+            height: 3.9rem;
+            padding: 1.3rem 1.5rem;
+            padding-right: 4rem;
+            margin-bottom: 3.3rem;
+            font-size: 1.5rem;
+            border-radius: 2px;
+            border: solid 2px #e4e4e4;
+            background-color: #ffffff;
+            color: #000; }
+            .teams-settings-body .team-name .input-container .input input:focus, .teams-settings-body .category .input-container .input input:focus {
+              outline: none;
+              border: solid 2px #0077ff; }
+            .teams-settings-body .team-name .input-container .input input:focus ~ .suggestion-container .search-suggestion, .teams-settings-body .category .input-container .input input:focus ~ .suggestion-container .search-suggestion {
+              display: block;
+              z-index: 50; }
+            .teams-settings-body .team-name .input-container .input input:focus ~ .suggestion-container, .teams-settings-body .category .input-container .input input:focus ~ .suggestion-container {
+              display: block;
+              z-index: 50; }
+            .teams-settings-body .team-name .input-container .input input::placeholder, .teams-settings-body .category .input-container .input input::placeholder {
+              font-size: 1.5rem;
+              color: #000; }
+          .teams-settings-body .team-name .input-container .input .search-suggestion, .teams-settings-body .category .input-container .input .search-suggestion {
+            display: none;
+            height: 26rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color: #ffffff;
+            transform: translate(0, 0);
+            overflow: auto; }
+            @media (max-width: 767px) {
+              .teams-settings-body .team-name .input-container .input .search-suggestion, .teams-settings-body .category .input-container .input .search-suggestion {
+                width: 100%; } }
+            .teams-settings-body .team-name .input-container .input .search-suggestion-item, .teams-settings-body .category .input-container .input .search-suggestion-item {
+              height: 5.2rem;
+              padding: 2rem 1.6rem 2.5rem 1.6rem; }
+              .teams-settings-body .team-name .input-container .input .search-suggestion-item:hover, .teams-settings-body .category .input-container .input .search-suggestion-item:hover {
+                color: #fff;
+                background-color: #0077ff; }
+                .teams-settings-body .team-name .input-container .input .search-suggestion-item:hover p, .teams-settings-body .category .input-container .input .search-suggestion-item:hover p {
+                  color: #fff; }
+              .teams-settings-body .team-name .input-container .input .search-suggestion-item p, .teams-settings-body .category .input-container .input .search-suggestion-item p {
+                margin: 0; }
+              .teams-settings-body .team-name .input-container .input .search-suggestion-item .team, .teams-settings-body .category .input-container .input .search-suggestion-item .team {
+                padding-top: 5px;
+                margin-bottom: -2px;
+                font-size: 1.4rem;
+                color: #000a19; }
+              .teams-settings-body .team-name .input-container .input .search-suggestion-item .people, .teams-settings-body .category .input-container .input .search-suggestion-item .people {
+                font-size: 1.2rem;
+                color: #5e636b; }
     .teams-settings-body .team-table-member {
       min-height: 27rem;
       height: 100%;
@@ -2640,30 +2809,106 @@ body {
         color: #1a173b; }
       .teams-create-new-body .team-name .category-input, .teams-create-new-body .category .category-input {
         width: 100%;
-        max-width: 28.1rem; }
+        max-width: 24rem; }
       .teams-create-new-body .team-name .team-select, .teams-create-new-body .category .team-select {
         padding-left: 1.7rem;
-        width: 20rem;
+        width: 28rem;
         height: 3.5rem;
         border-radius: 17px;
         border: solid 1.5px rgba(0, 0, 0, 0.1);
         outline: none; }
       .teams-create-new-body .team-name input, .teams-create-new-body .category input {
-        padding-right: 5rem;
+        padding-right: 4rem;
         width: 100%;
-        max-width: 28.1rem;
-        height: 4.7rem;
+        max-width: 28rem;
+        height: 3.9rem;
         padding-left: 1.7rem;
         font-size: 1.5rem;
         font-weight: 500;
-        line-height: 1.2;
-        color: rgba(0, 0, 0, 0.7);
         border-radius: 4px;
-        background-color: rgba(239, 239, 239, 0.53);
-        border: none; }
+        border: solid 1.5px #e4e4e4;
+        color: #000; }
         .teams-create-new-body .team-name input::placeholder, .teams-create-new-body .category input::placeholder {
-          color: rgba(0, 0, 0, 0.7);
+          color: #000;
           font-size: 1.5rem; }
+      .teams-create-new-body .team-name .input-container, .teams-create-new-body .category .input-container {
+        padding: 0;
+        width: 24rem; }
+        .teams-create-new-body .team-name .input-container .input, .teams-create-new-body .category .input-container .input {
+          position: relative;
+          z-index: 1000; }
+          .teams-create-new-body .team-name .input-container .input .i-2, .teams-create-new-body .category .input-container .input .i-2 {
+            font-size: 2.5rem;
+            color: #62e872;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translate(-50%, -50%); }
+          .teams-create-new-body .team-name .input-container .input .suggestion-container, .teams-create-new-body .category .input-container .input .suggestion-container {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            display: none;
+            height: 26rem;
+            transform: translate(0, 100%);
+            width: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-top: none;
+            z-index: 100; }
+          .teams-create-new-body .team-name .input-container .input input, .teams-create-new-body .category .input-container .input input {
+            width: 100%;
+            height: 3.9rem;
+            padding: 0 1.7rem;
+            padding-right: 4rem;
+            margin-bottom: 3.3rem;
+            font-size: 1.5rem;
+            border-radius: 2px;
+            border: solid 1.5px #e4e4e4;
+            background-color: #ffffff;
+            color: #000; }
+            .teams-create-new-body .team-name .input-container .input input:focus, .teams-create-new-body .category .input-container .input input:focus {
+              outline: none;
+              border: solid 2px #0077ff; }
+            .teams-create-new-body .team-name .input-container .input input:focus ~ .suggestion-container .search-suggestion, .teams-create-new-body .category .input-container .input input:focus ~ .suggestion-container .search-suggestion {
+              display: block;
+              z-index: 50; }
+            .teams-create-new-body .team-name .input-container .input input:focus ~ .suggestion-container, .teams-create-new-body .category .input-container .input input:focus ~ .suggestion-container {
+              display: block;
+              z-index: 50; }
+            .teams-create-new-body .team-name .input-container .input input::placeholder, .teams-create-new-body .category .input-container .input input::placeholder {
+              font-size: 1.5rem;
+              color: #000; }
+          .teams-create-new-body .team-name .input-container .input .search-suggestion, .teams-create-new-body .category .input-container .input .search-suggestion {
+            display: none;
+            height: 26rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color: #ffffff;
+            transform: translate(0, 0);
+            overflow: auto; }
+            @media (max-width: 767px) {
+              .teams-create-new-body .team-name .input-container .input .search-suggestion, .teams-create-new-body .category .input-container .input .search-suggestion {
+                width: 100%; } }
+            .teams-create-new-body .team-name .input-container .input .search-suggestion-item, .teams-create-new-body .category .input-container .input .search-suggestion-item {
+              height: 5.2rem;
+              padding: 2rem 1.6rem 2.5rem 1.6rem; }
+              .teams-create-new-body .team-name .input-container .input .search-suggestion-item:hover, .teams-create-new-body .category .input-container .input .search-suggestion-item:hover {
+                color: #fff;
+                background-color: #0077ff; }
+                .teams-create-new-body .team-name .input-container .input .search-suggestion-item:hover p, .teams-create-new-body .category .input-container .input .search-suggestion-item:hover p {
+                  color: #fff; }
+              .teams-create-new-body .team-name .input-container .input .search-suggestion-item p, .teams-create-new-body .category .input-container .input .search-suggestion-item p {
+                margin: 0; }
+              .teams-create-new-body .team-name .input-container .input .search-suggestion-item .team, .teams-create-new-body .category .input-container .input .search-suggestion-item .team {
+                padding-top: 5px;
+                margin-bottom: -2px;
+                font-size: 1.4rem;
+                color: #000a19; }
+              .teams-create-new-body .team-name .input-container .input .search-suggestion-item .people, .teams-create-new-body .category .input-container .input .search-suggestion-item .people {
+                font-size: 1.2rem;
+                color: #5e636b; }
     .teams-create-new-body .team-table-member {
       min-height: 27rem;
       height: 100%;
@@ -3081,11 +3326,13 @@ body {
 
 .btn-custom-blue,
 .btn-custom-blue:hover {
+  font-family: "Open Sans", sans-serif;
   white-space: nowrap;
   display: inline-block;
   padding: 0.8rem 2.2rem;
   background-color: #0077ff;
   font-size: 1.4rem;
+  font-weight: 600;
   color: #fff;
   border-radius: 0.4rem;
   text-decoration: none; }
@@ -3197,11 +3444,11 @@ body {
       .header-top-logout a {
         font-size: 1.5rem;
         font-weight: 600;
-        color: #6e747e; }
+        color: #6E747E; }
         .header-top-logout a i {
-          margin-left: -0.3rem;
-          margin-top: -0.2rem;
-          font-size: 1.8rem; }
+          margin-left: -0.2rem;
+          margin-top: -0.3rem;
+          font-size: 1.9rem; }
   .header h2 {
     height: 3.7rem;
     margin-top: 0.5rem;
@@ -3232,14 +3479,14 @@ body {
     .header-bot .profile-info {
       margin-right: auto;
       font-size: 1.6rem;
-      color: #56555d; }
+      color: #56555D; }
       .header-bot .profile-info span {
         color: #37363c;
         font-weight: 700; }
     .header-bot .icons {
       white-space: nowrap; }
       .header-bot .icons a {
-        color: #1a173b; }
+        color: #37363C; }
     .header-bot .buttons a:not(:last-of-type), .header-bot .icons a:not(:last-of-type) {
       margin-right: 1.3rem; }
     .header-bot .search {
