@@ -3705,6 +3705,7 @@ body {
 
     & .category-input {
       position: relative;
+      
 
       & i {
         position: absolute;
@@ -3793,6 +3794,7 @@ body {
       & input {
         //min-width: 18rem;
         //width: 100%;
+        padding-right: 5rem;
         width: 100%;
         max-width: 28.1rem;
         height: 4.7rem;
@@ -4042,6 +4044,7 @@ body {
       & input {
         //min-width: 18rem;
         //width: 100%;
+        padding-right: 5rem;
         width: 100%;
         max-width: 28.1rem;
         height: 4.7rem;
