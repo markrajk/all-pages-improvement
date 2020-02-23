@@ -1547,7 +1547,7 @@ body {
 
     &-left {
       width: 50%;
-      padding-right: 1.5%;
+      padding-right: .75%;
 
       @include respond(tablet) {
         width: 100%;
@@ -1695,6 +1695,7 @@ body {
     &-right {
       width: 50%;
       height: 100%;
+      padding-left: .75%;
 
       @include respond(tablet) {
         display: none;
@@ -3167,7 +3168,7 @@ body {
 
     &-left {
       width: 50%;
-      padding-right: 1.5%;
+      padding-right: .75%;
 
       @include respond(tablet) {
         width: 100%;
@@ -3304,6 +3305,7 @@ body {
     &-right {
       width: 50%;
       height: 100%;
+      padding-left: .75%;
 
       @include respond(tablet) {
         display: none;

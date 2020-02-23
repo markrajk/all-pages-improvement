@@ -998,7 +998,7 @@ body {
     height: calc(100% - 20rem); }
     .people-results-key-people-body-left {
       width: 50%;
-      padding-right: 1.5%; }
+      padding-right: .75%; }
       @media (max-width: 850px) {
         .people-results-key-people-body-left {
           width: 100%; } }
@@ -1100,7 +1100,8 @@ body {
               background: linear-gradient(#fa2020, #ef0049); }
     .people-results-key-people-body-right {
       width: 50%;
-      height: 100%; }
+      height: 100%;
+      padding-left: .75%; }
       @media (max-width: 850px) {
         .people-results-key-people-body-right {
           display: none; } }
@@ -2059,7 +2060,7 @@ body {
     height: calc(100% - 20rem); }
     .teams-results-example-people-body-left {
       width: 50%;
-      padding-right: 1.5%; }
+      padding-right: .75%; }
       @media (max-width: 850px) {
         .teams-results-example-people-body-left {
           width: 100%; } }
@@ -2161,7 +2162,8 @@ body {
               background: linear-gradient(#fa2020, #ef0049); }
     .teams-results-example-people-body-right {
       width: 50%;
-      height: 100%; }
+      height: 100%;
+      padding-left: .75%; }
       @media (max-width: 850px) {
         .teams-results-example-people-body-right {
           display: none; } }
