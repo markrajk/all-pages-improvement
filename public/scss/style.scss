@@ -1577,6 +1577,11 @@ body {
           border-top-right-radius: 4px;
           border-bottom: none;
 
+          & span {
+            margin-left: .2rem;
+            font-weight: normal;
+          }
+
           & h3 {
             font-size: 1.9rem;
             font-weight: 700;
@@ -2661,7 +2666,7 @@ body {
         margin-bottom: 0.9rem;
         font-size: 1.9rem;
         font-weight: 700;
-        color: #000000;
+        color: #1a173b;
       }
 
       & input {
@@ -3326,6 +3331,11 @@ body {
           border-top-left-radius: 4px;
           border-top-right-radius: 4px;
           border-bottom: none;
+
+          & span {
+            margin-left: .2rem;
+            font-weight: normal;
+          }
 
           & h3 {
             font-size: 1.9rem;
