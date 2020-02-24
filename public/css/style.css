@@ -3718,7 +3718,7 @@ body {
   .people-signin .signin {
     padding: 0 6rem;
     width: 45rem;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 4vh;
     margin-bottom: 2.8rem;
     padding-bottom: 6rem;
