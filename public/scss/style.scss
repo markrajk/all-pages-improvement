@@ -5634,46 +5634,39 @@ body {
   }
 
   .signin {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
     padding: 0 6rem;
     width: 45rem;
-    height: 63rem;
+    //height: 63rem;
     margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 2.8rem;
+    padding-bottom: 6rem;
     //transform: translate(0, 25%);
     background-color: #fff;
     border: solid 2px #d9d9d9;
     border-radius: 1.2rem;
-
-    @include respond-v(desktop-sm) {
-      height: 54rem;
-    }
 
     &-header {
       height: 4.5rem;
       margin-top: 9rem;
       margin-bottom: 5.5rem;
       font-size: 3.6rem;
-      font-weight: 600;
+      font-weight: 400;
       color: #183b56;
-
-      @include respond-v(desktop-sm) {
-        height: 2.25rem;
-        margin-top: 4.5rem;
-        margin-bottom: 2.75rem;
-      }
     }
 
     & #password,
-    #email {
+    #email,
+    #name {
       padding: 1.7rem 2rem;
       margin-bottom: 3rem;
       width: 100%;
       height: 5rem;
-      font-size: 1.5rem;
-      font-weight: 600;
+      font-size: 1.55rem;
+      font-weight: 400;
       color: #183b56;
       border-radius: 8px;
       border: solid 1.3px #c3cad9;
@@ -5713,7 +5706,6 @@ body {
       & a {
         font-size: 1.3rem;
         font-weight: 600;
-        color: #1565d8;
       }
     }
 
@@ -5736,12 +5728,147 @@ body {
 
       & a {
         margin-left: 1rem;
-        font-weight: 700;
+        font-weight: 600;
       }
     }
   }
 }
 //PEOPLE SIGNIN END
+//========================================
+
+
+
+//========================================
+//PEOPLE SIGNUP START
+.people-signup {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 43px 48px;
+
+  &-header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3d3f43;
+    //margin-bottom: 10rem;
+    & .company {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    & .help {
+      font-size: 1.5rem;
+      margin: 0;
+
+      & i {
+        margin-left: 0.5rem;
+        margin-top: -3px;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .signup {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    padding: 0 6rem;
+    width: 45rem;
+    //height: 63rem;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 2.8rem;
+    padding-bottom: 6rem;
+    //transform: translate(0, 25%);
+    background-color: #fff;
+    border: solid 2px #d9d9d9;
+    border-radius: 1.2rem;
+
+    &-header {
+      height: 4.5rem;
+      margin-top: 9rem;
+      margin-bottom: 5.5rem;
+      font-size: 3.6rem;
+      font-weight: 400;
+      color: #183b56;
+    }
+
+    & #password,
+    #email,
+    #name {
+      padding: 1.7rem 2rem;
+      margin-bottom: 3rem;
+      width: 100%;
+      height: 5rem;
+      font-size: 1.55rem;
+      font-weight: 400;
+      color: #183b56;
+      border-radius: 8px;
+      border: solid 1.3px #c3cad9;
+      background-color: #ffffff;
+
+      &::placeholder {
+        color: #959ead;
+      }
+
+      &:focus {
+        outline: none;
+        border: solid 1.8px #0077ff;
+      }
+    }
+
+    & label {
+      margin-bottom: 0.7rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.33;
+      color: #484d52;
+    }
+
+    .check {
+      margin-bottom: 2.6rem;
+      margin-top: 0.3rem;
+      & input {
+        margin-right: 1rem;
+      }
+      & label {
+        display: inline-block;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #5a7184;
+      }
+
+      & a {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+
+    & .btn-custom-signin {
+      height: 5.4rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      //letter-spacing: .24px;
+      color: #fff;
+      border-radius: 8px;
+      border: none;
+      background-color: #1565d8;
+    }
+
+    .dont-have {
+      margin-top: 2.6rem;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #5a7184;
+
+      & a {
+        margin-left: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+//PEOPLE SIGNUP END
 //========================================
 
 //=========================================
