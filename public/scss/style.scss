@@ -422,6 +422,7 @@ body {
 //TEAMS RESULTS ALL TEAMS END
 //=========================================
 
+
 //=========================================
 //GIVE FEEDBACK MENU START
 .give-feedback-menu {
@@ -1514,7 +1515,7 @@ body {
         border: none !important;
         border-bottom: 1px solid #dee2e6 !important;
         font-size: 1.4rem;
-        color: #5e636b;
+        //color: #5e636b;
       }
 
       & .spacer-left {
@@ -4847,6 +4848,758 @@ body {
   }
 }
 //ME RESULTS END
+//=========================================
+
+
+//=========================================
+//ME MY ACCOUNT START
+.me-my-account {
+  margin-left: 24.4rem;
+  width: 100% !important;
+  height: 100vh;
+  padding: 0 4.6rem 0 3.4rem;
+
+&-main {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 2.8rem;
+  max-width: 93rem;
+  padding: 2.6rem;
+  background-color: #FFF;
+  padding-bottom: 1.4rem;
+  border-radius: 4px;
+  border: solid 1.5px #eaebee;
+
+  & h2 {
+    margin-bottom: 4rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #1a173b;
+  }
+
+  & .all-input {
+    display: flex;
+    flex-wrap: wrap;
+
+    & .input {
+      margin-right: 3rem;
+      margin-bottom: 3rem;
+      & input {
+        padding: 1.6rem;
+        width: 26rem;
+        height: 4.7rem;
+        font-size: 1.5rem;
+        color: #000;
+        border-radius: 4px;
+        border: none;
+        background-color: rgba(239, 239, 239, 0.53);
+
+        &::placeholder {
+          font-size: 1.5rem;
+          font-weight: normal;
+          color: #a8a7a7;
+        }
+      }
+      
+      & label {
+        margin-left: .2rem;
+        margin-bottom: 1rem;
+        display: block;
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+}
+//ME MY ACCOUNT END
+//=========================================
+
+
+//=========================================
+//ADMIN TEAM REGISTER START
+.admin-team-register {
+  position: relative;
+  width: 100%;
+  margin-left: 24.4rem;
+  background-color: #f8f9fb;
+  padding: 0 4.6rem 0 3.4rem;
+
+  &-body {
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    border: solid 1.5px #eaebee;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 2.8rem;
+
+    & .h3 {
+      padding: 2.6rem;
+      padding-bottom: 0;
+      margin-bottom: 2.2rem;
+      color: #1a173b;
+
+      & h3 {
+        height: 2.3rem;
+        font-size: 1.9rem;
+        font-weight: 700;
+        letter-spacing: 0.13px;
+      }
+
+      & i {
+        color: #5e636b;
+      }
+    }
+
+    & .inputs {
+      margin-right: 2.5rem;
+      & .search {
+        margin-left: 2.5rem;
+
+        margin-bottom: 2rem;
+        position: relative;
+        width: 26.3rem;
+
+        & input {
+          font-family: "Nunito", sans-serif;
+          width: 100%;
+          height: 3.5rem;
+          padding-left: 4.3rem;
+          font-size: 1.4rem;
+          font-weight: 500;
+          color: rgba(0, 0, 0, 0.75);
+          border: solid 1.5px rgba(0, 0, 0, 0.1);
+          border-radius: 1.7rem;
+          outline: none;
+
+          &::placeholder {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.75);
+          }
+        }
+
+        & i {
+          font-size: 2.5rem;
+          position: absolute;
+          top: 50%;
+          left: 2.5rem;
+          transform: translate(-50%, -50%);
+          color: rgba(0, 0, 0, 0.75);
+        }
+      }
+
+      & .select {
+        width: 20.95rem;
+        margin-left: 1.7rem;
+
+        & select {
+          font-family: "Nunito", sans-serif;
+          padding-left: 1.7rem;
+          height: 3.5rem;
+          width: 100%;
+          font-size: 1.4rem;
+          font-weight: 500;
+          line-height: 1.14;
+          color: rgba(0, 0, 0, 0.75);
+          border-radius: 1.7rem;
+          border: solid 1.5px rgba(0, 0, 0, 0.1);
+
+          background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
+            no-repeat 95% 50%;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      & button {
+        margin-right: 2.5rem;
+        width: 15.3rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #fff;
+        background-color: #0077ff;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+      }
+    }
+
+    & .table {
+      margin-bottom: 0;
+      height: 100%;
+      max-height: 100%;
+      font-size: 1.4rem;
+      overflow-y: auto;
+
+      &-footer {
+        padding: 0 3rem !important;
+        font-size: 1.4rem;
+        color: #5e636b;
+        width: 100%;
+        height: 6.9rem;
+        border-top: 1.5px solid #eaebee;
+
+        & p {
+          margin-bottom: 0;
+        }
+
+        & select {
+          font-size: 1.4rem;
+          color: #5e636b;
+          padding: 0;
+          width: 4.5rem;
+          border: none;
+          background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
+            no-repeat 95% 50%;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+        }
+
+        & i {
+          color: #5e636b;
+          font-size: 3.5rem;
+          margin-left: 0rem;
+
+          &.disabled {
+            color: rgba(94, 99, 107, 0.4) !important;
+            cursor: not-allowed;
+          }
+        }
+      }
+
+      & .btn-table {
+        font-size: 1.4rem;
+        text-decoration: none;
+        display: inline-block;
+        width: 7.2rem;
+        height: 3rem;
+        color: #fff;
+        font-weight: 700;
+        border: none;
+        border-radius: 3px;
+        vertical-align: middle;
+        line-height: 1.07;
+
+        &-green {
+          background: $green-gradient;
+        }
+        &-orange {
+          background: $orange-gradient;
+        }
+        &-red {
+          background: $red-gradient;
+        }
+      }
+    }
+  }
+}
+//ADMIN TEAM REGISTER END
+//=========================================
+
+
+
+//=========================================
+//ADMIN USER REGISTER START
+.admin-user-register {
+  position: relative;
+  width: 100%;
+  margin-left: 24.4rem;
+  background-color: #f8f9fb;
+  padding: 0 4.6rem 0 3.4rem;
+
+  &-body {
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    border: solid 1.5px #eaebee;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 2.8rem;
+
+    & .h3 {
+      padding: 2.6rem;
+      padding-bottom: 0;
+      margin-bottom: 2.2rem;
+      color: #1a173b;
+
+      & h3 {
+        height: 2.3rem;
+        font-size: 1.9rem;
+        font-weight: 700;
+        letter-spacing: 0.13px;
+      }
+
+      & i {
+        color: #5e636b;
+      }
+    }
+
+    & .inputs {
+      margin-right: 2.5rem;
+      & .search {
+        margin-left: 2.5rem;
+
+        margin-bottom: 2rem;
+        position: relative;
+        width: 26.3rem;
+
+        & input {
+          font-family: "Nunito", sans-serif;
+          width: 100%;
+          height: 3.5rem;
+          padding-left: 4.3rem;
+          font-size: 1.4rem;
+          font-weight: 500;
+          color: rgba(0, 0, 0, 0.75);
+          border: solid 1.5px rgba(0, 0, 0, 0.1);
+          border-radius: 1.7rem;
+          outline: none;
+
+          &::placeholder {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.75);
+          }
+        }
+
+        & i {
+          font-size: 2.5rem;
+          position: absolute;
+          top: 50%;
+          left: 2.5rem;
+          transform: translate(-50%, -50%);
+          color: rgba(0, 0, 0, 0.75);
+        }
+      }
+
+      & .select {
+        width: 20.95rem;
+        margin-left: 1.7rem;
+
+        & select {
+          font-family: "Nunito", sans-serif;
+          padding-left: 1.7rem;
+          height: 3.5rem;
+          width: 100%;
+          font-size: 1.4rem;
+          font-weight: 500;
+          line-height: 1.14;
+          color: rgba(0, 0, 0, 0.75);
+          border-radius: 1.7rem;
+          border: solid 1.5px rgba(0, 0, 0, 0.1);
+
+          background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
+            no-repeat 95% 50%;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      & button {
+        margin-right: 2.5rem;
+        width: 15.3rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #fff;
+        background-color: #0077ff;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+      }
+    }
+
+    & .table {
+      margin-bottom: 0;
+      height: 100%;
+      max-height: 100%;
+      font-size: 1.4rem;
+      overflow-y: auto;
+
+      &-footer {
+        padding: 0 3rem !important;
+        font-size: 1.4rem;
+        color: #5e636b;
+        width: 100%;
+        height: 6.9rem;
+        border-top: 1.5px solid #eaebee;
+
+        & p {
+          margin-bottom: 0;
+        }
+
+        & select {
+          font-size: 1.4rem;
+          color: #5e636b;
+          padding: 0;
+          width: 4.5rem;
+          border: none;
+          background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+)
+            no-repeat 95% 50%;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+        }
+
+        & i {
+          color: #5e636b;
+          font-size: 3.5rem;
+          margin-left: 0rem;
+
+          &.disabled {
+            color: rgba(94, 99, 107, 0.4) !important;
+            cursor: not-allowed;
+          }
+        }
+      }
+
+      & .btn-table {
+        font-size: 1.4rem;
+        text-decoration: none;
+        display: inline-block;
+        width: 7.2rem;
+        height: 3rem;
+        color: #fff;
+        font-weight: 700;
+        border: none;
+        border-radius: 3px;
+        vertical-align: middle;
+        line-height: 1.07;
+
+        &-green {
+          background: $green-gradient;
+        }
+        &-orange {
+          background: $orange-gradient;
+        }
+        &-red {
+          background: $red-gradient;
+        }
+      }
+    }
+  }
+}
+//ADMIN USER REGISTER END
+//=========================================
+
+
+
+//=========================================
+//ADMIN COMPANY PROFILE START
+.admin-company-profile {
+  margin-left: 24.4rem;
+  width: 100% !important;
+  height: 100vh;
+  padding: 0 4.6rem 0 3.4rem;
+  
+
+  &-main {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 2.8rem;
+    &-top {
+      max-width: 93rem;
+      padding: 2.6rem;
+      background-color: #FFF;
+      padding-bottom: 1.4rem;
+      border-radius: 4px;
+      border: solid 1.5px #eaebee;
+  
+      & h2 {
+        margin-bottom: 4rem;
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #1a173b;
+      }
+    
+      & .all-input {
+        display: flex;
+        flex-wrap: wrap;
+    
+        & .input {
+          margin-right: 3rem;
+          margin-bottom: 3rem;
+          & input {
+            padding: 1.6rem;
+            width: 26rem;
+            height: 4.7rem;
+            font-size: 1.5rem;
+            color: #000;
+            border-radius: 4px;
+            border: none;
+            background-color: rgba(239, 239, 239, 0.53);
+    
+            &::placeholder {
+              font-size: 1.5rem;
+              font-weight: normal;
+              color: #a8a7a7;
+            }
+          }
+          
+          & label {
+            margin-left: .2rem;
+            margin-bottom: 1rem;
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #3e3e3e;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  
+    &-bottom {
+      max-width: 61rem;
+      margin-top: 2.2rem;
+      background-color: #FFF;
+      border-radius: 4px;
+      border: solid 1.5px #eaebee;
+  
+      & table td,th {
+        font-size: 1.3rem;
+      }
+      & table.table.flex-table {
+        margin-bottom: 0;
+      }
+      & table tbody {
+        max-height: 15.5rem!important;
+        overflow-y: auto;
+  
+        & tr {
+          height: 3.9rem;
+        }
+      }
+  
+      &-header {
+        padding: 2.6rem;
+        padding-bottom: 1rem;
+  
+        & h2 {
+          font-size: 1.9rem;
+          font-weight: 700;
+          color: #1a173b;
+  
+          & span {
+            margin-left: .5rem;
+            font-weight: normal;
+          }
+        }
+  
+        & a {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+//ADMIN COMPANY PROFILE END
+//=========================================
+
+
+
+//=========================================
+//ADMIN COMPANY PROFILE START
+.admin-company-profile {
+  font-family: "Lato", sans-serif;
+  
+
+  &-top {
+    max-width: 93rem;
+    padding: 2.6rem;
+    background-color: #FFF;
+    padding-bottom: 1.4rem;
+    border-radius: 4px;
+    border: solid 1.5px #eaebee;
+
+    & h2 {
+      margin-bottom: 4rem;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #1a173b;
+    }
+  
+    & .all-input {
+      display: flex;
+      flex-wrap: wrap;
+  
+      & .input {
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+        & input {
+          padding: 1.6rem;
+          width: 26rem;
+          height: 4.7rem;
+          font-size: 1.5rem;
+          color: #000;
+          border-radius: 4px;
+          border: none;
+          background-color: rgba(239, 239, 239, 0.53);
+  
+          &::placeholder {
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: #a8a7a7;
+          }
+        }
+        
+        & label {
+          margin-bottom: 1rem;
+          display: block;
+          font-size: 1.1rem;
+          font-weight: 700;
+          color: #3e3e3e;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    max-width: 61rem;
+    margin-top: 2.2rem;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: solid 1.5px #eaebee;
+
+    & table td,th {
+      font-size: 1.3rem;
+    }
+    & table.table.flex-table {
+      margin-bottom: 0;
+    }
+    & table tbody {
+      max-height: 15.5rem!important;
+      overflow-y: auto;
+
+      & tr {
+        height: 3.9rem;
+      }
+    }
+
+    &-header {
+      padding: 2.6rem;
+      padding-bottom: 1rem;
+
+      & h2 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #1a173b;
+
+        & span {
+          margin-left: .5rem;
+          font-weight: normal;
+        }
+      }
+
+      & a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+//ADMIN COMPANY PROFILE END
+//=========================================
+
+
+//=========================================
+//TODO-LIST START
+.todo-list {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 24.4rem;
+  width: 100% !important;
+  height: 100vh;
+  padding: 0 4.6rem 0 3.4rem;
+  
+
+  &-main {
+    font-family: "Lato", sans-serif;
+    max-width: 86rem;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: solid 1.5px #eaebee;
+
+    & table td,th {
+      font-size: 1.3rem;
+    }
+    & table.table.flex-table {
+      margin-bottom: 0;
+    }
+    & table tbody {
+      max-height: 40rem!important;
+      max-height: calc(100vh - 35rem)!important;
+      overflow-y: auto;
+
+      & tr {
+        height: 3.9rem;
+      }
+    }
+
+    .asking-for {
+      flex: 1!important;
+    }
+
+    .who-asks {
+      flex: .5!important;
+    }
+
+    .command {
+      flex: .5!important;
+    }
+
+    & .btn-table {
+      font-size: 1.4rem;
+      text-decoration: none;
+      display: inline-block;
+      width: 7.2rem;
+      height: 3rem;
+      color: #fff;
+      font-weight: 700;
+      border: none;
+      border-radius: 3px;
+      vertical-align: middle;
+      line-height: 1.07;
+
+      &-green {
+        background: $green-gradient;
+      }
+      &-orange {
+        background: $orange-gradient;
+      }
+      &-red {
+        background: $red-gradient;
+      }
+    }
+
+    &-header {
+      padding: 2.6rem;
+      padding-bottom: 1rem;
+
+      & h2 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #1a173b;
+
+        & span {
+          margin-left: .5rem;
+          font-weight: normal;
+        }
+      }
+
+      & a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+//TODO-LIST END
 //=========================================
 
 

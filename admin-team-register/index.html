@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dahsboard | All teams</title>
+    <title>Dahsboard | Admin team register</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Nunito:300,400|Open+Sans:400,600,700&display=swap"
@@ -45,7 +45,7 @@
             <div class="sidebar-group">
                 <h3>TEAMS</h3>
                 <ul class="list-unstyled">
-                    <li class="active"><a href="../teams-results-favourites/index.html">Results </a></li>
+                    <li><a href="../teams-results-favourites/index.html">Results </a></li>
                     <li><a href="../teams-export/index.html">Export results </a></li>
                     <li><a href="../teams-setting/index.html">Manage teams </a></li>
                     <li><a href="../teams-create-new/index.html">Create a new team </a></li>
@@ -73,7 +73,7 @@
             <div class="sidebar-group">
                 <h3>ADMIN</h3>
                 <ul class="list-unstyled">
-                    <li><a href="../admin-user-register/index.html">User/team register </a></li>
+                    <li class="active"><a href="../admin-user-register/index.html">User/team register </a></li>
                     <li><a href="../admin-company-profile/index.html">Company Profile </a></li>
                 </ul>
             </div>
@@ -81,27 +81,27 @@
     </div>
 
         <!-- RESULTS SECTION -->
-        <div class="teams-results-all-teams">
+        <div class="admin-team-register">
 
             <div class="header">
                 <div class="header-top">
-                    <a class="header-top-small" href="#">Teams</a>
+                    <a class="header-top-small" href="#">Admin</a>
                     <div class="header-top-logout">
                         <a href="../people-signin/index.html">Logout
                             <i class="material-icons align-middle">exit_to_app</i>
                         </a>
                     </div>
                 </div>
-                <h2>Overview</h2>
+                <h2>Registers</h2>
                 <div class="header-bot">
                     <div class="options">
-                        <a href="../teams-results-favourites/index.html">My teams</a>
+                        <a href="../admin-user-register/index.html">User register</a>
                         <span class="divider">I</span>
-                        <a href="../teams-results-all-teams/index.html" class="active">All teams</a>
+                        <a href="../admin-team-register/index.html" class="active">Team register</a>
                     </div>
                 </div>
             </div>
-            <div class="teams-results-all-teams-body">
+            <div class="admin-team-register-body">
  
                 
                 <div class="h3 d-flex">
@@ -123,9 +123,6 @@
                             </select>
                         </div>
                     </div>
-                    <div>
-                        <a href="#" target="_blank" class="btn-custom-blue">Open on a new tab</a>
-                    </div>
                 </div>
                 <!-- TABLE SECTION -->
                     <div class="row table-row">
@@ -138,34 +135,26 @@
                                     <th class="spacer-left"></th>
                                     <th class="checkbox"></th>
                                     <th class="team-name">Name of team</th>
-                                    <th class="team-lead-name d-none d-xl-flex">Team lead</th>
                                     <th class="team-size d-none d-lg-flex"><a href="#"><i class="material-icons align-middle">arrow_downward</i></a> Team size</th>
-                                    <th class="team-index">Team index</th>
-                                    <th class="team-lead-rating d-none d-md-flex">Team lead</th>
-                                    <th class="team-view d-none d-sm-inline-block">View team</th>
-                                    <th class="team-edit d-none d-sm-inline-block">Edit team</th>
+                                    <th class="team-lead-name d-none d-xl-flex">Team lead</th>
+                                    <th class="team-index  d-none d-md-flex">Team lead's email</th>
+                                    <th class="team-lead-rating">Commands</th>
                                 </tr>
                               </thead>
                               <tbody>
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
                                     <td class="team-name">Martketing</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jonas Walter</td>
                                     <td class="team-size d-none d-lg-flex">20</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
-                                        <a href="../teams-setting/index.html">Edit team</a>
+                                    <td class="team-lead-name d-none d-xl-flex">Jonas Walter</td>
+                                    <td class="team-index  d-none d-md-flex">john.walter@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <button class="btn-table btn-table-green mr-3">Confirm</button>
+                                        <button class="btn-table btn-table-red">Deny</button>
                                     </td>
                                 </tr>
 
@@ -175,18 +164,53 @@
                                         <input type="checkbox">
                                     </td>
                                     <td class="team-name">Sales</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Betric Smetlana</td>
-                                    <td class="team-size d-none d-lg-flex">25</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-orange">Ok</button>
+                                    <td class="team-size d-none d-lg-flex">24</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Betrich Smetana</td>
+                                    <td class="team-index  d-none d-md-flex">betrichs@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <button class="btn-table btn-table-green mr-3">Confirm</button>
+                                        <button class="btn-table btn-table-red">Deny</button>
                                     </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
+                                </tr>
+
+                                <tr class="active">
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox" checked>
                                     </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
+                                    <td class="team-name">Frontend</td>
+                                    <td class="team-size d-none d-lg-flex">24</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Jili Bowow</td>
+                                    <td class="team-index  d-none d-md-flex">jili@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                </tr>
+
+                                <tr>
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox">
+                                    </td>
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox">
+                                    </td>
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
@@ -197,219 +221,196 @@
                                         <input type="checkbox" checked>
                                     </td>
                                     <td class="team-name">Frontend</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jill Bowow</td>
-                                    <td class="team-size d-none d-lg-flex">18</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-red">Bad</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-size d-none d-lg-flex">24</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Jili Bowow</td>
+                                    <td class="team-index  d-none d-md-flex">jili@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Martketing</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jonas Walter</td>
-                                    <td class="team-size d-none d-lg-flex">20</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
-                                        <a href="#" class="link-disabled">Edit team</a>
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Sales</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Betric Smetlana</td>
-                                    <td class="team-size d-none d-lg-flex">25</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
-                                        <a href="#" class="link-disabled">Edit team</a>
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr class="active">
                                     <td class="spacer-left"></td>
-                                    <td class="checkbox active">
+                                    <td class="checkbox">
                                         <input type="checkbox" checked>
                                     </td>
                                     <td class="team-name">Frontend</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jill Bowow</td>
-                                    <td class="team-size d-none d-lg-flex">18</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-red">Bad</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-size d-none d-lg-flex">24</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Jili Bowow</td>
+                                    <td class="team-index  d-none d-md-flex">jili@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Martketing</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jonas Walter</td>
-                                    <td class="team-size d-none d-lg-flex">20</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Sales</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Betric Smetlana</td>
-                                    <td class="team-size d-none d-lg-flex">25</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Martketing</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jonas Walter</td>
-                                    <td class="team-size d-none d-lg-flex">20</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Sales</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Betric Smetlana</td>
-                                    <td class="team-size d-none d-lg-flex">25</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Martketing</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Jonas Walter</td>
-                                    <td class="team-size d-none d-lg-flex">20</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-green">Good</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td class="spacer-left"></td>
                                     <td class="checkbox">
                                         <input type="checkbox">
                                     </td>
-                                    <td class="team-name">Sales</td>
-                                    <td class="team-lead-name d-none d-xl-flex">Betric Smetlana</td>
-                                    <td class="team-size d-none d-lg-flex">25</td>
-                                    <td class="team-index">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-lead-rating d-none d-md-flex">
-                                        <button class="btn-table btn-table-orange">Ok</button>
-                                    </td>
-                                    <td class="team-view d-none d-sm-inline-block">
-                                        <a href="../teams-results-example/index.html">View team</a>
-                                    </td>
-                                    <td class="team-edit d-none d-sm-inline-block">
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
                                         <a href="../teams-setting/index.html">Edit team</a>
                                     </td>
                                 </tr>
+
+                                <tr>
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox">
+                                    </td>
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox">
+                                    </td>
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox">
+                                    </td>
+                                    <td class="team-name">Backend</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Lorem ipsum</td>
+                                    <td class="team-index  d-none d-md-flex">loremipsum@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="spacer-left"></td>
+                                    <td class="checkbox">
+                                        <input type="checkbox">
+                                    </td>
+                                    <td class="team-name">Human Resource</td>
+                                    <td class="team-size d-none d-lg-flex">16</td>
+                                    <td class="team-lead-name d-none d-xl-flex">Angelo White</td>
+                                    <td class="team-index  d-none d-md-flex">angelo.white@gmail.com</td>
+                                    <td class="team-lead-rating">
+                                        <a href="../teams-setting/index.html">Edit team</a>
+                                    </td>
+                                </tr>
+
                               </tbody>
                             </table>
                           </div>
