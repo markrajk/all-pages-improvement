@@ -6243,3 +6243,14 @@ body {
   white-space: nowrap;
 }
 
+.custom-dd-link {
+  & a {
+    
+  font-size: 1.4rem!important;
+  color: #0077ff!important;
+  }
+  
+  & .dropdown-item.active, & .dropdown-item:active {
+    color: #fff!important;
+  }
+}

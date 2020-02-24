@@ -4147,3 +4147,9 @@ body {
 
 .options {
   white-space: nowrap; }
+
+.custom-dd-link a {
+  font-size: 1.4rem !important;
+  color: #0077ff !important; }
+.custom-dd-link .dropdown-item.active, .custom-dd-link .dropdown-item:active {
+  color: #fff !important; }
